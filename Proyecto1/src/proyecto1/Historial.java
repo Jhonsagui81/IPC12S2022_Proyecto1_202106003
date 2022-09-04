@@ -3,12 +3,12 @@ package proyecto1;
 import java.time.LocalDateTime;
 
 public class Historial {
-    private int idHistorial;
-    private LocalDateTime fechaHoraActuales;
-    private String Descripcion;
-    private double MontoDebitado;
-    private double MontoAcreditado;
-    private double saldoActual;
+        private int idHistorial;
+        private LocalDateTime fechaHoraActuales;
+        private String Descripcion;
+        private double MontoDebitado;
+        private double MontoAcreditado;
+        private double saldoActual;
    
 
     //Atributos

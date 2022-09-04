@@ -12,7 +12,7 @@ public class HomePage extends javax.swing.JFrame {
         initComponents();
         this.persona = pers;
 
-    }
+    }   
     
     public HomePage(){
         initComponents();
@@ -98,11 +98,8 @@ public class HomePage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btmAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmAboutActionPerformed
-       
-        //mostrando datos en ventana emergente 
-       JOptionPane.showMessageDialog(null, "Mi nombre es: Jhonatan Alexander Aguilar Reyes\nMi carnet es: 202106003");
-       
-       
+       //mostrando datos en ventana emergente 
+       JOptionPane.showMessageDialog(null, "Mi nombre es: Jhonatan Alexander Aguilar Reyes\nMi carnet es: 202106003");       
     }//GEN-LAST:event_btmAboutActionPerformed
 
     private void btmLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmLoginActionPerformed

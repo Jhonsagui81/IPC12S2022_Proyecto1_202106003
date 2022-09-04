@@ -4,11 +4,12 @@ import javax.swing.JOptionPane;
 
 public class Proyecto1 {
 
-    static int ContadorCuentas = 0;
-    static int ContadorOperaciones = 0;
+    static int ContadorCuentas = 0; // Para  Cuentas
+    static int ContadorOperaciones = 0; // Para Historial
+    private static int contador; //para guardar clientes en distintas posiciones de array
+    static int contador1 = 0; //tiene la cantidad de personas registradas
+    
     private static Clientes clientes[] = new Clientes[5];
-    private static int contador;
-    static int contador1 = 0;
 
     public static void main(String[] args) {
         //creando arreglo de personas

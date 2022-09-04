@@ -11,9 +11,10 @@ public class Cuentas {
     
     
     //constructores
-    Cuentas() {
-        this.idCuenta = 0;
-        this.SaldoCuenta = 0;
+    
+
+    public Cuentas() {
+        
     }
 
     public Cuentas(int idCuenta) {
@@ -28,18 +29,6 @@ public class Cuentas {
             ContadorTransacciones++;
         }
     }
-    
-    
-//    public boolean transferir(double valor, Cuentas idCuentaDestino) {
-//        if (this.SaldoCuenta >= valor) {
-//            this.SaldoCuenta -= valor;
-//            idCuentaDestino.setSaldoCuenta(valor);
-//            return true;
-//        } else {
-//            return false;
-//        }
-//
-//    }
     
     public void retirarSaldo(double SaldoCuenta){
         this.SaldoCuenta -= SaldoCuenta;

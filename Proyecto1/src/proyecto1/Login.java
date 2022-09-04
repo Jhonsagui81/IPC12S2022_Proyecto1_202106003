@@ -94,9 +94,7 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btmRegresar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmRegresar1ActionPerformed
-        // TODO add your handling code here:
         // limpiar los textField
-
         try {
             txtUsuario.setText(null);
             txtPassword.setText(null);
@@ -114,7 +112,6 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_btmRegresar1ActionPerformed
 
     private void btmInicioSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmInicioSesionActionPerformed
-        // TODO add your handling code here:
         //condicionales para validar contrasena
         String user = txtUsuario.getText();
         String pass = txtPassword.getText();
@@ -134,11 +131,9 @@ public class Login extends javax.swing.JFrame {
 
                 }
             }
-
         } else {
             JOptionPane.showMessageDialog(null, "¡Debe rellenar todos los campos!");
         }
-        
     }//GEN-LAST:event_btmInicioSesionActionPerformed
  
    
